@@ -4687,3 +4687,16 @@ input, select, textarea {
 		}
 
 	}
+
+/* Allow long button labels to wrap on small screens instead of overflowing */
+.button {
+	white-space: normal !important;
+	word-wrap: break-word !important;
+	overflow-wrap: break-word !important;
+	height: auto !important;
+	line-height: 1.4 !important;
+	padding-top: 0.6em !important;
+	padding-bottom: 0.6em !important;
+	max-width: 100% !important;
+	box-sizing: border-box !important;
+}
